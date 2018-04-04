@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assessment 2</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="controls.css">
+	<link rel="stylesheet" type="text/css" href="preview.css">
+</head>
+<body>
+	<div id="preview">
+		<img id="hair" class="items" src="img/hair1.png" />
+		<img id="eyes" class="items" src="img/eyes1.png" />
+		<img id="nose" class="items" src="img/nose1.png" />
+		<img id="mouth" class="items" src="img/mouth1.png" />
+    </div>
+    <br>
+	<div id="controls">
+		<input class="rangebtns" type="range" id="range1" value="60" max="70" min="0">
+		<input class="rangebtns" type="range" id="range2" min="0" max="40" value="20">
+		<input class="rangebtns" type="range" id="range3" min="0" max="30" value="20">
+		<input class="rangebtns" type="range" id="range4" min="0" max="35" value="20">
+		<input type="color" id="color1" value="#FFFFFF">
+
+		<br/><br/>
+
+		<button id="rangebut">Range</button>
+		<button id="numbut">Number</button>
+		<button id="randbut">Random</button>
+		<button id="plusbut">+</button>
+		|
+		<button id="autobut">Auto Random Create</button>
+		<button id="stopautobut">Stop Auto Create</button>
+		<br/><br/>
+	</div>
+	<div id="display">
+		
+	</div>
+	<script src="controls.js"></script>
+	<script src="preview.js"></script>
+</body>
+</html>

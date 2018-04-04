@@ -1,0 +1,37 @@
+.rangebtns {
+	width: 60px;
+}
+
+#numbut {
+	color: white;
+	background-color: black;
+}
+
+#randbut {
+	background-color: pink;
+}
+
+#plusbut {
+	color: white;
+	background-color: grey;
+}
+
+#copy {
+	height: 100px;
+	width: 100px;
+	position: relative;
+	display: inline-block;
+	margin: 2px;
+}
+.copyitems {
+	height: auto;
+	display: block;
+	position: relative;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+#display {
+	margin: 0 auto;
+}
